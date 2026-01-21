@@ -1,7 +1,7 @@
 def main() -> None:
     print("=== CYBER ARCHIVES - PRESERVATION SYSTEM ===\n")
 
-    filename = "new_discovery"
+    filename = "new_discovery.txt"
     print(f"Initializing new storage unit: {filename}")
 
     file_archive = open(filename, "w")
