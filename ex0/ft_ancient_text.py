@@ -12,7 +12,6 @@ def main() -> None:
 
     print("Connection established...")
     print("RECOVERED DATA:")
-
     content = file.read()
     print(content)
 
